@@ -33,7 +33,7 @@ rules:
     failure_conditions:
       - operator: numberIsHigherThan
         key: le
-        value: 0.2
+        value: 0.25
     additional_metadata:
       slo_type: latency99
 
